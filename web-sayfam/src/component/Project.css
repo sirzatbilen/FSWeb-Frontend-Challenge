@@ -1,0 +1,52 @@
+.projeTıtle{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.projeler{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proje{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 28%;
+    
+}
+
+.proje img{
+    width: 100%;
+    height: 25vh;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+p{
+    text-align: start;
+}
+@media (max-width: 550px){
+    .projeTıtle{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .projeler{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .proje{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .proje img{
+        width: 100%;
+        height: 40vh;
+    }
+}
