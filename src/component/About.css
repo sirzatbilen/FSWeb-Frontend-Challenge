@@ -70,13 +70,16 @@
         justify-content: center;
     }
     .about-left{
-        width: 80%;
+        width: 60%;
         margin: 0 auto;
         text-align: start;
     }
     .button img{
         width: 25%;
         height: 3vh;
+    }
+    .button a{
+        padding: 0 0.8rem;
     }
     .about-right{
         width: 100%;
@@ -85,5 +88,10 @@
         width: 20rem;
         height: 45vh;
         padding: 3rem;
+    }
+    .about-right img{
+        width: 80%;
+        height: 45vh;
+        padding: 0;
     }
 }

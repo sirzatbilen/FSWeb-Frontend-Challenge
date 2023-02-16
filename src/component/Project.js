@@ -23,10 +23,10 @@ export default function Project() {
               your pizza with the ingredients you want.
             </p>
           </div>
-          <div>
-            <button>react</button>
-            <button>router</button>
-            <button>axios</button>
+          <div className="buttons">
+            <a>react</a>
+            <a>router</a>
+            <a>axios</a>
           </div>
           <div className="navi">
             <a
@@ -58,10 +58,10 @@ export default function Project() {
               gratitude.
             </p>
           </div>
-          <div>
-            <button>react</button>
-            <button>router</button>
-            <button>axios</button>
+          <div className="buttons">
+            <a>react</a>
+            <a>router</a>
+            <a>axios</a>
           </div>
           <div className="navi">
             <a
@@ -88,10 +88,10 @@ export default function Project() {
               movies list.
             </p>
           </div>
-          <div>
-            <button>react</button>
-            <button>router</button>
-            <button>axios</button>
+          <div className="buttons">
+            <a>react</a>
+            <a>router</a>
+            <a>axios</a>
           </div>
           <div className="navi">
             <a
